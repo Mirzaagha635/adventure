@@ -1,0 +1,152 @@
+header {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  position: absolute;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-image: url(/assets/img/slider1.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+#home .hometext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+#feature {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#feature .featureicon {
+  display: flex;
+}
+#feature .featurebox {
+  border: 1px solid black;
+  margin: 20px;
+}
+#feature .featuretext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contant {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#contant .context {
+  width: 100%;
+  height: 100px;
+}
+#contant .contacttext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#contant .contacttext .contactbtn {
+  border: none;
+  background-color: #AC1BFC;
+  border-radius: 50px;
+  padding: 12px;
+}
+#contant .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#contant .email .inp {
+  width: 100%;
+}
+#contant .textcontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footertext .fa-regular {
+  color: #AC1BFC;
+}
+footer .footertext span {
+  color: #AC1BFC;
+}
+footer .footertext p {
+  color: white;
+}
+
+#product {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#product img {
+  max-width: 100%;
+}
+#product .loadmore {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#search {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(158, 189, 189);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
